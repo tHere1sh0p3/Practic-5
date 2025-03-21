@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.most {
+    width: 1400px;
+    height: 500px;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/e1/25/caption.jpg?w=1400&h=500&s=1');
+    border-radius: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 260px;
+}
+
+.most:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 20px;
+}
+
+.container {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.text {
+    margin: 40px 40px;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    background: linear-gradient(90deg, rgb(19, 19, 19) 0%, rgba(75, 72, 72, 1) 100%);
+}
+
+.btn {
+    border: unset;
+    border-radius: 15px;
+}
+
+.btn-img-vokzal{
+    border: unset;
+}
+.btn-img{
+    border: unset;
+
+} 
+.btn-img{
+    border: unset;
+
+}  
+
+.doc-button {
+    margin: 27px 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    gap: 50px;
+    scale: 1;
+    width: 550px;
+    margin: 150px auto;
+}
+.a-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 150px;
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+    font-size: 24px;
+    color: white;
+}
+
+.icon:hover {
+    z-index: 5;
+    transform:  scale(1.1);
+    box-shadow: 0 0 30px;
+}
